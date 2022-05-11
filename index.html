@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css"/>
     <title>Curso CSS</title>
-  </head>
-  <body>
-    <h1>Olá Mundo!</h1>
-  </body>
+</head>
+<body>
+    <div class="container">
+        <h1>Olá Mundo</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A nobis iusto numquam cumque accusantium, sint qui quam, incidunt doloremque magnam sit maiores ut. Culpa quae deserunt delectus perspiciatis fuga est.
+        </p>
+    </div>
+
+    <aside class="main-aside">
+        <h2>Redes Sociais</h2>
+        <ul>
+            <li><a href="https://twitter.com">Twitter</a></li>
+            <li><a href="https://instagram.com">Instagram</a></li>
+        </ul>
+    </aside>
+
+    <form action="form.php" method="POST" class="main-form">
+        <div class="form-group">
+            <label>Primeiro Nome:</label>
+            <input type="text" placeholder="Entre seu primeiro nome" />
+        </div>
+        <div class="form-group">
+            <label>Segundo Nome:</label>
+            <input type="text" />
+        </div>
+        <div class="form-group">
+            <label>Email:</label>
+            <input type="text" />
+        </div>
+        <div class="form-group">
+            <label>Mensagem</label>
+            <textarea name="mensagem"></textarea>
+        </div>
+        <input class="button" type="submit" />
+    </form>
+</body>
 </html>
